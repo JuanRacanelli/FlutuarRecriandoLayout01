@@ -1,0 +1,103 @@
+body {
+  margin: 0rem;
+  height: 100vh;
+
+  background: #FFFFFF;
+}
+
+section img{
+  width: 350px;
+  margin-bottom: 32px;
+}
+
+section main {
+  width: 626px;
+  margin: 0 auto;
+  margin-top: 64px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section main h1 {
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 16px;
+  text-align: center;
+
+  color: #3F3D56;
+
+  font-family: 'Dosis';
+  font-weight: normal;
+}
+
+section main h1 span {
+  font-weight: bold;
+  color: #EE24FF;
+}
+
+section main p {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 32px;
+  text-align: center;
+
+  color: #828282;
+
+  font-family: 'Open Sans';
+  font-weight: normal;
+}
+
+section main p span {
+  color: #3F3D56;
+  font-weight: bold;
+}
+
+footer {
+  width: 1024px;
+  margin: 0 auto;
+  margin-top: 64px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#line {
+  width: 391px;
+  border: 1px solid #ECEFF2;
+}
+
+footer nav ul {
+  display: flex;
+  padding: 0;
+  
+  list-style: none;
+  gap: 42px;
+
+}
+
+footer nav ul a{
+  text-decoration: none;
+  font-style: none;
+  font-weight: bold;
+
+  font-size: 16px;
+  line-height: 22px;
+  color: #3F3D56;
+
+  font-family: 'Open Sans';
+
+}
+
+footer nav ul a:hover{
+  cursor: pointer;
+  color: #EE24FF;
+  opacity: 0.5;
+}
+
+
+
+
+
